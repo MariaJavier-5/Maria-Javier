@@ -1,0 +1,26 @@
+h1 {
+  font-size: 48px;
+  color: Navy;
+  border: 5px solid Navy;
+}
+
+#border {
+  border: 2px solid Navy;
+  padding: 2em
+}
+
+#brd {
+  border: 2px solid Navy;
+  padding: 2em
+}
+
+body {
+  background-color: MintCream;
+}
+.textColor {
+  color: Navy
+}
+
+h2 {
+  text-decoration: underline;
+}
