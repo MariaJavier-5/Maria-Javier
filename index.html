@@ -1,8 +1,50 @@
-<DocType html>
+<!DOCTYPE html>
 <html>
   <head>
+    <link rel = "stylesheet" href = "my_styles.css">
+    <script src = "website.js"> </script>
   </head>
-  <body>
-    <h1 hello world> </h1>
+
+  <body onload = "load()">
+    <div>
+      <h1> Maria Javier </h1>
+    </div>
+    <div id = "border">
+      <h2 class = "textColor"> About Me: </h2>
+      I live in Richmond, California with my mom, brother, and dog, Sky.
+      Sky is a yellow Labrador Retriever who hates swimming, but loves sleeping.
+      We got her when I was going into first grade and now she’s ten years old. I’m also a proud half Filipina.
+      <!-- <p>
+        <img src = "./Images/Sky_img.PNG">
+      </p> -->
+      <div>
+        <h4 class = "textColor"> Likes: </h4>
+        <button tabindex= 0 onclick = "expandFunc()"> Click to see. </button>
+        <p id = "expand">
+          I listen to music all the time and currently my favorite song right now is “Truth Hurts” by Lizzo.
+          I've gone to many concerts and I don't plan on stopping.
+          I also love to watch Netflix and go to the movies.
+          I enjoy watching action movies, specifically Marvel movies like Captain America: The Winter Soldier, but I’m always down for a good comedy or romance movie.
+        </p>
+      </div>
+      <div>
+        <h4 class = "textColor"> Random Facts: </h4>
+        <button tabindex=0 onclick = "expandRF()"> Click to see. </button>
+        <p id = "RF">
+        I’ve been out of the country twice; the first to the Philippines with my family, and the second to France with my best friend and part of our French class.
+        My favorite websites are probably <a href = "https://www.instagram.com/?hl=en"> Instagram,</a> <a href ="https://twitter.com/?lang=en"> Twitter, </a> and <a href = "https://www.netflix.com/"> Netflix.</a>
+        </p>
+      </div>
+    </div>
+    <div id = "brd">
+        <h2 class = "textColor"> Projects: </h2>
+        <h4 class = "textColor"> Filters: </h4>
+        I created my own filter in Python by creating a function and using loops and conditionals.
+        <p>
+          <img alt = "Filterd image of a dog that looks red" src = "./Images/copy_dog.PNG">
+        </p>
+    </div>
+    <!-- <button onclick = "myFunction()"> Press </button> -->
   </body>
- </html>
+</html>
+
